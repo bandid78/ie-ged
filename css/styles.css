@@ -1,0 +1,25 @@
+
+/* Utilizar modo de caja para que padding no haga más grande los divs */
+* {
+	box-sizing: border-box;
+}
+
+
+/* Estilo de prueba para comprovar que PIE funciona */
+.pie-test {
+	border-radius: 10px;
+	font-family: Arial;
+	background: steelblue;
+	color: white;
+	text-align: center;
+	width: 400px;
+	margin: 1em auto 1em auto;
+	padding: 2em;
+	font-style: italic;
+}
+
+.test-icon {
+	vertical-align: middle;
+	margin-right: 0.5em;
+	color: #CEF;
+}
