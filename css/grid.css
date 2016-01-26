@@ -40,6 +40,23 @@
 .block {
   float: left;
   width: 100%;
+  padding: 0 5px;
+}
+
+.block-group  .block:first-child {
+  padding: 0 5px 0 0;
+}
+
+.block-group  .block:last-child {
+  padding: 0 0 0 5px;
+}
+
+.no-gutter > .block {
+  padding: 0 0 0 0!important;
+}
+
+.row.no-margin {
+  margin: 0 auto 0 auto;
 }
 
 .col-1 {
@@ -93,7 +110,7 @@
 .row {
   max-width: 980px;
   min-width: 980px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
 }
 
 .col-padded {
@@ -114,4 +131,8 @@
   width: 0;
   height: 0;
   clear: both;
+}
+
+.block:last-child {
+  padding-right: 0;
 }

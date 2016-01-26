@@ -1,7 +1,7 @@
 
 $(function(){
 	if(window.PIE){
-		$('.piejs').each(function(){
+		$('.piejs, .rounded, .button, .card, .thumbnail').each(function(){
 			PIE.attach(this);
 		});
 	}
