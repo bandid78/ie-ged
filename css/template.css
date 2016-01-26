@@ -1,0 +1,98 @@
+.main-title {
+  font-size: 2em;
+  font-weight: normal;
+  color: steelblue;
+  margin: 20px 0;
+  font-family: Calibri, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+/* Estilo de prueba para comprovar que PIE funciona */
+.card {
+  position: relative;
+  border-radius: 5px;
+  background: #CCC;
+  color: white;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  min-height: 180px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  padding: 4px 0;
+}
+
+.card-body {
+  padding: 10px;
+  line-height: 1.4em;
+  font-size: 0.9em;
+  margin: 5px 0 0 0;
+}
+
+.card.info {
+  background-color: steelblue;
+  color: white;
+}
+
+.card.warning {
+  background-color: GoldenRod;
+  color: #333;
+}
+
+.card.success {
+  background-color: #1fa67a;
+  color: white;
+}
+
+.card.danger {
+  background-color: FireBrick;
+  color: white;
+}
+
+.main-header {
+  background: steelblue;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background: #333;
+  line-height: 2.2em;
+  padding: 0 1.2em;
+  color: white;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+.thumbnail {
+  border: white 2px solid;
+}
+
+.thumbnail > img {
+  display: block;
+}
+
+.main-footer {
+  margin: 2em 0 0 0;
+  background: #CCC;
+  padding: 2em 0 4em 0;
+  color: #333;
+  font-size: 0.8em;
+}

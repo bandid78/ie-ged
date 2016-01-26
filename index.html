@@ -1,12 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta http-equiv="x-ua-compatible" content="IE=8" >
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Plantilla Para IE8 en GED</title>
+	<title>Plantilla html + PIE + Fancybox</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/template.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<script type="text/javascript" src="js/modernizr-custom.js"></script>
   <!--[if (gte IE 6)&(lte IE 8)]>
@@ -15,15 +17,195 @@
   <![endif]-->
   <!--[if lt IE 9]>
     <link rel="stylesheet" type="text/css" href="css/ie8-styles.css" />
-    <![endif]-->
     <script type="text/javascript" src="js/PIE.js"></script>
+    <![endif]-->
+    
     <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="js/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 </head>
 <body>
-	<div class="pie-test piejs">
-		<i class="fa fa-internet-explorer fa-2x test-icon"></i>
-		Plantilla para IE8 en GED
-	</div>
+  <div class="main-header">
+    <div class="block-group row">
+      <div class="block">
+          <h3>
+          <i class="fa fa-internet-explorer"></i>
+          Plantilla HTML5 para IE8 en intranet
+          </h3>
+      </div>
+    </div>
+  </div>
+  <div class="block-group row">
+    <div class="block">
+      <h3 class="main-title">Caracter&iacute;sticas</h3>
+    </div>
+
+    <div class="block col-4">
+      <div class="info card piejs">
+        <div class="card-title">
+          <i class="fa fa-pie-chart"></i>
+          PIE.js
+        </div>
+        <div class="card-body">
+          <p>
+            Permite utilizar bordes redondeados y gradientes CSS3 en Internet Explorer 8.
+          </p>
+          <div class="text-right">
+            <a href="http://css3pie.com/documentation/pie-js/" class="button">
+              M&aacute;s info
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="block col-4 col-padded">
+    <div class="warning card piejs">
+      <div class="card-title">
+        <i class="fa fa-css3"></i>
+        Selectivizr
+      </div>
+      <div class="card-body">
+        <p>
+          Permite utilizar selectores CSS3 en las hojas de estilo en internet Explorer 8.
+        </p>
+        <div class="text-right">
+          <a href="http://selectivizr.com/" class="button">
+            Documentaci&oacute;n
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="block col-4">
+    <div class="success card piejs">
+      <div class="card-title">
+        <i class="fa fa-font"></i>
+        Font Awesome
+      </div>
+      <div class="card-body">
+        <p>
+          Tipografía con iconos, permite utilizar iconos escalables en lugar de imágenes.
+          <br/>
+        </p>
+        <div class="text-right">
+          <a href="http://fortawesome.github.io/Font-Awesome/icons" class="button">
+             Iconos disponibles
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+<div class="block-group row">
+
+  <div class="block col-4">
+    <div class="danger card piejs">
+      <div class="card-title">
+        <i class="fa fa-asterisk"></i>
+        Modernizr
+      </div>
+      <div class="card-body">
+        <p>
+        Detecta funcionalidades y añade clases al elemento body en base a dichas funcionalidades detectadas.
+        </p>
+        <div class="text-right">
+          <a href="https://modernizr.com/docs" class="button">
+          Más información
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block col-4 col-padded">
+    <div class="info card piejs">
+      <div class="card-title">
+        <i class="fa fa-picture-o"></i>
+        Fancybox
+      </div>
+      <div class="card-body">
+        <div class="float-fix">
+            <a class="fancybox pull-left thumbnail" rel="group" href="img/big_image_1.jpg" style="margin-right: 10px;"><img src="img/small_image_1.jpg" width="50" alt="" /></a>
+          <p>
+            Muestra contenido en forma de 'ventana' modal. <br/>
+            Imágenes, iframes y divs.
+          </p>
+          
+        </div>
+        <div class="text-right">
+          <a href="http://fancyapps.com/fancybox/" class="button">
+          Documentación
+          </a>
+          <a class="various fancybox.iframe button" href="video.html">Ejemplo iframe</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="block col-4">
+    <div class="warning card piejs">
+      <div class="card-title">
+        <i class="fa fa-video-camera"></i>
+        VideoJS
+      </div>
+      <div class="card-body">
+        <div class="float-fix">
+          <p>
+          Visualización de video HTML5 (mp4) en IE8. <br/>
+          Se utiliza flash como reproductor.
+          </p>
+        </div>
+        <div class="text-right">
+          <a href="http://www.videojs.com" class="button">
+          Documentación
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-footer">
+  <div class="block-group row">
+  <div class="block col-12">
+    Versión: 1.0
+  </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
 </body>
 </html>
+
+	
