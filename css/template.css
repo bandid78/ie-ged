@@ -48,7 +48,7 @@ html, body {
   margin: 0 0 10px 0;
 }
 
-.card.info, .card.danger, .card.success {
+.card.info, .card.danger, .card.success, .card.primary {
   color: white;
 }
 
@@ -66,6 +66,10 @@ html, body {
 
 .card.danger {
   background-color: indianred;
+}
+
+.card.primary {
+  background-color: darkslateblue;
 }
 
 .main-header {

@@ -43,6 +43,11 @@
   padding: 0 5px;
 }
 
+.block.centered {
+  float: none;
+  margin: 0 auto;
+}
+
 .block-group  .block:first-child {
   padding: 0 5px 0 0;
 }
