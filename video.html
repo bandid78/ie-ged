@@ -30,13 +30,16 @@
 <!-- Video -->
 <link rel="stylesheet" href="js/video-js.css" type="text/css" media="screen" />
 <script type="text/javascript" src="js/video.js"></script>
-
+ <script>
+  VideoJS.options.flash.swf = "js/video-js.swf"
+</script>
 </head>
 <body>
 	<h1>Video</h1>
 	<center>
-    <div style="width:640px; height:360px; margin:0px;"><video id="video_home01" class="video-js vjs-default-skin" controls  width="640" height="360" poster="img/small_image_1.jpg" data-setup='{"example_option":true}'><source src="videos/spot_saltos.mp4" type="video/mp4" /></video></div>
+    <div style="width:640px; height:360px; margin:0px;"><video id="video_home01" class="video-js vjs-default-skin" controls  width="640" height="360" poster="img/small_image_1.jpg" data-setup=''><source src="videos/spot_saltos.mp4" type="video/mp4" /></video></div>
     </center>
+
 </body>
 </html>
 
