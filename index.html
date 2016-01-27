@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="css/grid.css?v=1">
   <link rel="stylesheet" type="text/css" href="css/template.css">
 	<link rel="stylesheet" href="css/styles.css">
+  <script src="js/respond.min.js"></script>
 	<script type="text/javascript" src="js/modernizr-custom.js"></script>
   <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="js/selectivizr.min.js"></script>
@@ -28,7 +29,7 @@
 <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 </head>
-<body>
+<body class="grid-responsive">
   <div class="page-wrap">
   <div class="main-header">
     <div class="block-group row">
@@ -50,7 +51,7 @@
 
 
   <div class="block-group row">
-    <div class="block col-4">
+    <div class="block col-4 b-desktop">
       <div class="info card">
         <div class="card-title">
           <i class="fa fa-pie-chart fa-2x"></i>
@@ -70,7 +71,7 @@
     </div>
 
 
-  <div class="block col-4">
+  <div class="block col-4 b-desktop">
     <div class="warning card">
       <div class="card-title">
         <i class="fa fa-css3 fa-2x"></i>
@@ -90,7 +91,7 @@
   </div>
 
 
-  <div class="block col-4">
+  <div class="block col-4 b-desktop">
     <div class="success card">
       <div class="card-title">
         <i class="fa fa-thumbs-o-up fa-2x"></i>
@@ -115,7 +116,7 @@
 
 <div class="block-group row">
 
-  <div class="block col-6">
+  <div class="block col-6 b-tablet">
     <div class="card">
       <div class="card-title">
         <i class="fa fa-hand-spock-o fa-flip-vertical fa-2x"></i>
@@ -135,7 +136,7 @@
     </div>
   </div>
 
-  <div class="block col-6">
+  <div class="block col-6 b-tablet">
     <div class="danger card">
       <div class="card-title">
         <i class="fa fa-cube fa-2x"></i>
@@ -162,7 +163,7 @@
   </div>
 
   <div class="block-group row">
-  <div class="centered block col-10">
+  <div class="block col-5 b-tablet">
     <div class="primary card">
       <div class="card-title">
         <i class="fa fa-video-camera fa-2x"></i>
@@ -183,14 +184,45 @@
         </div>
     </div>
   </div>
+
+  <div class="block col-7 b-tablet">
+    <div class="warning card">
+      <div class="card-title">
+        <i class="fa fa-th fa-2x"></i>
+        PocketGrid + Respond.js
+      </div>
+      <div class="card-body">
+        <p>
+        Sistema mínimo de posicionado con CSS y bloques. <br/>
+        Soporte básico para diseño "responsive" con respond.js y clases grid-responsive, b-tablet, b-desktop
+        </p>
+      </div>
+      <div class="text-right card-footer">
+        <a class="button" href="http://arnaudleray.github.io/pocketgrid/docs/">Web</a>
+      </div>
+    </div>
+  </div>
 </div>
     
   </div>
 
 <div class="main-footer">
   <div class="block-group row">
-  <div class="block col-12">
-    Versión: 1.0
+  <div class="block col-12 b-desktop">
+    Versión: 1.1
+
+    <div class="show-desktop">
+      <i class="fa fa-desktop"></i>
+      Viendo en escritorio
+    </div>
+    <div class="show-tablet">
+      <i class="fa fa-tablet"></i>
+      Viendo en tablet
+    </div>
+    <div class="show-mobile">
+      <i class="fa fa-mobile"></i>
+      Viendo en móvil
+    </div>
   </div>
   </div>
 </div>

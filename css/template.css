@@ -44,6 +44,10 @@ html, body {
   min-height: 7em;
 }
 
+.card-footer {
+  min-height: 1.8em;
+}
+
 .card-body p {
   margin: 0 0 10px 0;
 }
