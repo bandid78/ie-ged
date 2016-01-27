@@ -78,6 +78,7 @@ html, body {
 }
 
 .button {
+  position: relative;
   display: inline-block;
   text-decoration: none;
   background: #555;
